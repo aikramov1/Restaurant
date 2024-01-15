@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+   
+    align-items: center;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wr__logo{
+    width: 85px;
+    height: 50%;
+    border-right: 1px solid #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+.wr__logo h1{
+    color: orange;
+    font-family: cursive;
+}
+.wr__options{
+    width: 400px;
+    height: 50%;
+}
+.option__collection{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+}
+.wr__search{
+    width: 400px;
+    height: 100%;
+   
+    display: flex;
+}
+.wr__search input{
+    width: 45%;
+    height: 70%;
+    margin-top: 5px;
+
+}
+.wr__search select{
+    width: 200px;
+    height: 500px;
+    padding: 15px 15px;
+}
+.main{
+    width: 100%;
+    height: 700px;
+   
+
+    background: url("./img/back.jpg") no-repeat center/cover;
+}
+.tools{
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.tool{
+    width: 23%;
+    height: 300px;
+    margin: auto;
+    gap: 15px;
+    border-radius: 14px;
+}
+.tool1{
+    width: 23%;
+    height: 300px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 14px;
+}
+.tool img{
+    width: 100%;
+    height: 80%;
+
+}
+.tool1 img{
+    width: 100%;
+    height: 80%;
+
+
+}
+.tool__text{
+    width: 100%;
+    height: 20%;
+    background: #3d3c3c;
+    text-align: center;
+    color: #ddd;
+}
+.more__inform{
+    width: 100%;
+    height: 700px;
+   
+    display: flex;
+    background: #ddd;
+}
+.wr__inform,
+.wr__photo{
+    width: 50%;
+    height: 100%;
+   
+}
+.wr__photo img{
+    width: 100%;
+    height: 100%;
+}
+.wr__inform{
+    padding: 10px;
+}
+.wr__inform h1{
+    padding-bottom: 20px;
+}
+.wr__inform h2{
+    color: #857f7f;
+}
+.btn{
+    padding: 20px 25px;
+    font-size: 15px;
+    color: #fff;
+    background: rgb(203, 137, 14);
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background: #444;
+    display: flex;
+}
+.wr__footer{
+    width: 30%;
+    height: 100%;
+   
+   
+    padding: 5%;
+}
+.wr_wr__logo{
+    display: flex;
+}
+.wr__logo1{
+    width: 85px;
+    height: 30px;
+    border-right: 1px solid #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.wr__logo1 h1{
+    color: orange;
+    font-family: cursive;
+}
+.further{
+    color: #ddd;
+}
+.products__inform{
+    width: 45%;
+    height: 100%;
+   
+    padding: 5%;
+}
+.wr__info{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #222;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+.inform__collection{
+    line-height: 1.8;
+    list-style: none;
+    color: #ddd;
+}
+.inform:hover{
+    color: orange;
+    cursor: pointer;
+}
+.company{
+    width: 25%;
+    height: 100%;
+   
+    padding: 5%;
+
+}
